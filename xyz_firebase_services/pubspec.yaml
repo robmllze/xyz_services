@@ -1,0 +1,16 @@
+name: xyz_firebase_services
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore:
+  firebase_auth:
+  xyz_service_brokers:
+    path: ../xyz_service_brokers
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:

@@ -1,0 +1,16 @@
+name: xyz_amplify_services
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  xyz_service_brokers:
+    path: ../xyz_service_brokers
+  amplify_flutter: ^1.6.0
+  amplify_auth_cognito: ^1.6.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
