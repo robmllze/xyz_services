@@ -6,7 +6,9 @@ dependencies:
   flutter:
     sdk: flutter
   xyz_service_brokers:
-    path: ../xyz_service_brokers
+    git:
+      url: https://github.com/robmllze/xyz_services.git
+      path: xyz_service_brokers
   amplify_flutter: ^1.6.0
   amplify_auth_cognito: ^1.6.0
 dev_dependencies:

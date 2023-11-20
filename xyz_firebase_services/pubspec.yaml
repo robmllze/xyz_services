@@ -8,7 +8,9 @@ dependencies:
   cloud_firestore:
   firebase_auth:
   xyz_service_brokers:
-    path: ../xyz_service_brokers
+    git:
+      url: https://github.com/robmllze/xyz_services.git
+      path: xyz_service_brokers
 dev_dependencies:
   flutter_test:
     sdk: flutter
