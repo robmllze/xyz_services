@@ -15,7 +15,7 @@ import 'dart:async';
 
 import 'package:meta/meta.dart';
 import 'package:xyz_pod/xyz_pod.dart';
-import 'package:xyz_utils/xyz_utils.dart';
+import 'package:xyz_utils/html.dart';
 
 import 'user_broker.dart';
 
