@@ -1,18 +1,46 @@
+#.title
+## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+##
+## XYZ Amplify Services
+##
+## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#.title~
+
 name: xyz_amplify_services
+publish_to: none
+version: 0.1.0
+
+## -----------------------------------------------------------------------------
+ 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: ">=1.17.0"
+
+  sdk: '>= 3.0.0 < 4.0.0'
+  flutter: '>= 3.0.0 < 4.0.0'
+
+## -----------------------------------------------------------------------------
+
 dependencies:
+
   flutter:
     sdk: flutter
+
+  amplify_flutter: ^1.6.0
+  amplify_auth_cognito: ^1.6.0
+
   xyz_service_brokers:
     git:
       url: https://github.com/robmllze/xyz_services.git
       path: xyz_service_brokers
-  amplify_flutter: ^1.6.0
-  amplify_auth_cognito: ^1.6.0
+  
+
+## -----------------------------------------------------------------------------
+
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints:
+
+## -----------------------------------------------------------------------------
+
 flutter:

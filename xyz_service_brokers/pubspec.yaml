@@ -1,10 +1,29 @@
+#.title
+## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+##
+## XYZ Service Brokers
+##
+## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+#.title~
+
 name: xyz_service_brokers
+publish_to: none
+version: 0.1.0
+
+## -----------------------------------------------------------------------------
+
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: ">=1.17.0"
+
+  sdk: '>= 3.0.0 < 4.0.0'
+  flutter: '>= 3.0.0 < 4.0.0'
+
+## -----------------------------------------------------------------------------
+
 dependencies:
+
   flutter:
     sdk: flutter
+  meta:
   xyz_utils:
     git:
       url: https://github.com/robmllze/xyz_utils.git
@@ -13,9 +32,15 @@ dependencies:
     git:
       url: https://github.com/robmllze/xyz_pod.git
       ref: master
-  meta:
+
+## -----------------------------------------------------------------------------
+
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints:
+
+## -----------------------------------------------------------------------------
+
 flutter:
